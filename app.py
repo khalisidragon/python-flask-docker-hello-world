@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    # adding a comment to trigger source triggers
     return "Flask inside Docker!!"
 
 
